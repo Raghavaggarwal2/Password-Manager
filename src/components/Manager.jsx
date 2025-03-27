@@ -143,11 +143,11 @@ const Manager = () => {
       <div className="absolute inset-0 -z-10 h-full w-full bg-gradient-to-br from-blue-100 via-blue-100 to-blue-200">
         <div className="absolute left-0 right-0 top-0 -z-10 m-auto h-[310px] w-[310px] rounded-full bg-blue-300 opacity-20 blur-[100px]"></div>
       </div>
-      <div className="p-2 md:p-0 md:mycontainer min-h-[81vh]">
+      <div className="p-2 md:p-0 md:mycontainer min-h-[81vh] pb-20" >
         <h1 className="text-4xl mt-5 font-bold text-center">
           <span className="text-highlight1">&lt;</span>
           Crypt
-          <span className="text-highlight1">X/ &gt;</span>
+          <span className="text-highlight1"> X/ &gt;</span>
         </h1>
         <p className="text-blue-900 text-lg text-center">
           Your own Password Manager
@@ -205,7 +205,7 @@ const Manager = () => {
           </button>
         </div>
         <div className="passwords">
-          <h2 className="font-bold text-2xl py-4 text-highlight1">Your Passwords</h2>
+          <h2 className="font-bold text-2xl py-1 text-highlight1">Your Passwords</h2>
           {passwordArray.length === 0 && <div>No passwords to show</div>}
           {passwordArray.length !== 0 && (
             <table className="table-auto w-full rounded-md overflow-hidden mb-10">

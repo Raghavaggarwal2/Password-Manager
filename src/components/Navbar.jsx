@@ -7,7 +7,7 @@ const Navbar = () => {
         <div className="logo font-bold text-3xl">
           <span className="text-highlight">&lt;</span>
           Crypt
-          <span className="text-highlight">X/ &gt;</span>
+          <span className="text-highlight"> X/ &gt;</span>
         </div>
         <button className="btn-primary flex justify-center items-center my-5 ring-1 ring-white">
           <img src="https://cdn-icons-png.flaticon.com/512/25/25231.png" className="w-8 invert p-1" alt="github logo" />

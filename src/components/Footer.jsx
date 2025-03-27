@@ -6,7 +6,7 @@ const Footer = () => {
       <div className="logo text-white font-bold text-2xl">
         <span className="text-highlight">&lt;</span>
         Crypt
-        <span className="text-highlight">X/ &gt;</span>
+        <span className="text-highlight"> X/ &gt;</span>
       </div>
       <div className="font-bold text-md">Created by Raghav</div>
     </div>
