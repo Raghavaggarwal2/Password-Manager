@@ -4,7 +4,7 @@ const Navbar = () => {
   return (
     <nav className="bg-gradient-to-r from-gray-700 to-gray-800 text-white">
       <div className="flex justify-between items-center px-4 py-5 h-14 mycontainer">
-        <div className="logo font-bold text-2xl">
+        <div className="logo font-bold text-3xl">
           <span className="text-highlight">&lt;</span>
           Crypt
           <span className="text-highlight">X/ &gt;</span>
